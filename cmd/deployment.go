@@ -85,5 +85,5 @@ func UpdateDeployment(cmd *cobra.Command, args []string) {
 	if err != nil {
 		panic(err.Error())
 	}
-	fmt.Printf("Added sidecar to deployment % with uid %s\n", d.Name, d.UID)
+	fmt.Printf("Added sidecar to deployment %s with uid %s\n", d.Name, d.UID)
 }
