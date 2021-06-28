@@ -1,0 +1,2 @@
+# dsd
+Dotnet sidecar debugger
